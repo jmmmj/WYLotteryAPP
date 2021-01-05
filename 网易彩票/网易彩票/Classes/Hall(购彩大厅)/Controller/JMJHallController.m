@@ -7,7 +7,7 @@
 
 #import "JMJHallController.h"
 #import "UIImage+Scale.h"
-
+#import <MJRefresh.h>
 
 @interface JMJHallController ()
 
@@ -30,10 +30,17 @@
     
     self.navigationItem.title = @"购彩大厅";
     self.navigationItem.leftBarButtonItem = item;
-
+    
+    MJRefreshNormalHeader *refreshHeader = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
+    self.tableView.mj_header=refreshHeader;
+    
 
 }
-
+-(void)loadNewData{
+    [self.tableView.mj_header endRefreshing];
+    NSLog(@"123");
+    return;
+}
 
 //活动的点击事件
 -(void)activityClick{

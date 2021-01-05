@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09DC9638A20C294BECBAA818 /* libPods-网易彩票.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D6044D3E865170FBCF837 /* libPods-网易彩票.a */; };
 		441C4DD625997A6A00C1DCF7 /* Hall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C4DC825997A6A00C1DCF7 /* Hall.storyboard */; };
 		441C4E1C25997BB400C1DCF7 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C4E0325997BB400C1DCF7 /* History.storyboard */; };
 		441C4E1D25997BB400C1DCF7 /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C4E0925997BB400C1DCF7 /* Discovery.storyboard */; };
@@ -120,6 +121,9 @@
 		4478759C2599722E0036B3D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4478759E2599722E0036B3D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		447875C7259972C50036B3D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		958D6044D3E865170FBCF837 /* libPods-网易彩票.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-网易彩票.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AF7EDDF8B7AA0044BDBCD6 /* Pods-网易彩票.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网易彩票.release.xcconfig"; path = "Target Support Files/Pods-网易彩票/Pods-网易彩票.release.xcconfig"; sourceTree = "<group>"; };
+		F5055A6481D55D2F89B98D10 /* Pods-网易彩票.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网易彩票.debug.xcconfig"; path = "Target Support Files/Pods-网易彩票/Pods-网易彩票.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,12 +131,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DC9638A20C294BECBAA818 /* libPods-网易彩票.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E4DE7CD9C2426EBFE36BEE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5055A6481D55D2F89B98D10 /* Pods-网易彩票.debug.xcconfig */,
+				B6AF7EDDF8B7AA0044BDBCD6 /* Pods-网易彩票.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		441C4DC325997A6A00C1DCF7 /* Hall(购彩大厅) */ = {
 			isa = PBXGroup;
 			children = (
@@ -451,6 +466,8 @@
 			children = (
 				4478756B25996A310036B3D2 /* 网易彩票 */,
 				4478756A25996A310036B3D2 /* Products */,
+				3E4DE7CD9C2426EBFE36BEE0 /* Pods */,
+				CB0B0EB375D98E8F54211F26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -519,6 +536,14 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		CB0B0EB375D98E8F54211F26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				958D6044D3E865170FBCF837 /* libPods-网易彩票.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -526,9 +551,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4478758225996A310036B3D2 /* Build configuration list for PBXNativeTarget "网易彩票" */;
 			buildPhases = (
+				FEE9159567E5D8AF4ADDC740 /* [CP] Check Pods Manifest.lock */,
 				4478756525996A310036B3D2 /* Sources */,
 				4478756625996A310036B3D2 /* Frameworks */,
 				4478756725996A310036B3D2 /* Resources */,
+				E118BBCEF91A6B8C5DB3DEAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -598,6 +625,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E118BBCEF91A6B8C5DB3DEAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-网易彩票/Pods-网易彩票-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-网易彩票/Pods-网易彩票-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-网易彩票/Pods-网易彩票-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE9159567E5D8AF4ADDC740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-网易彩票-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4478756525996A310036B3D2 /* Sources */ = {
@@ -759,6 +828,7 @@
 		};
 		4478758325996A310036B3D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5055A6481D55D2F89B98D10 /* Pods-网易彩票.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -778,6 +848,7 @@
 		};
 		4478758425996A310036B3D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AF7EDDF8B7AA0044BDBCD6 /* Pods-网易彩票.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
