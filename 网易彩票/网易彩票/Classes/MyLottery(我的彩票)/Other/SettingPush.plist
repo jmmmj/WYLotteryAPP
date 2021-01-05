@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>targetVC</key>
+				<string>JMJSettingController</string>
+				<key>plistName</key>
+				<string>SettingPush01</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>accessoryContent</key>
+				<string>UI20</string>
+				<key>title</key>
+				<string>开奖推送</string>
+			</dict>
+			<dict>
+				<key>plistName</key>
+				<string>SettingPush02</string>
+				<key>targetVC</key>
+				<string>JMJLiveController</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>accessoryContent</key>
+				<string>UI20</string>
+				<key>title</key>
+				<string>比分直播推送</string>
+			</dict>
+			<dict>
+				<key>targetVC</key>
+				<string>JMJSettingController</string>
+				<key>plistName</key>
+				<string>SettingPush03</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>accessoryContent</key>
+				<string>UI20</string>
+				<key>title</key>
+				<string>中奖动画</string>
+			</dict>
+			<dict>
+				<key>targetVC</key>
+				<string>JMJSettingController</string>
+				<key>plistName</key>
+				<string>SettingPush04</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>accessoryContent</key>
+				<string>UI20</string>
+				<key>title</key>
+				<string>购彩提醒</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

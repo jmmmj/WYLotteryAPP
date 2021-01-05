@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="scaleToFill" id="Agq-6K-x1a" customClass="RotateView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="UI01" highlightedImage="UI01" translatesAutoresizingMaskIntoConstraints="NO" id="2ve-IY-gbh">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="UI05" highlightedImage="UI05" translatesAutoresizingMaskIntoConstraints="NO" id="ent-Po-n8x" userLabel="rotateImage">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed0-gS-weg">
+                    <rect key="frame" x="177" y="418" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="KE9-SC-F3v"/>
+                        <constraint firstAttribute="width" constant="60" id="S5d-US-XpY"/>
+                    </constraints>
+                    <state key="normal" title="旋转" backgroundImage="UI00">
+                        <color key="titleColor" systemColor="systemRedColor"/>
+                        <color key="titleShadowColor" systemColor="systemGray4Color"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="19.circle" catalog="system"/>
+                    <connections>
+                        <action selector="pickNunber:" destination="Agq-6K-x1a" eventType="touchUpInside" id="Owe-Ox-e1R"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="quM-aK-xh1"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ent-Po-n8x" secondAttribute="bottom" id="4G4-6q-grh"/>
+                <constraint firstAttribute="bottom" secondItem="2ve-IY-gbh" secondAttribute="bottom" id="71K-7n-QOA"/>
+                <constraint firstAttribute="trailing" secondItem="ent-Po-n8x" secondAttribute="trailing" id="OPi-zN-U1g"/>
+                <constraint firstItem="ent-Po-n8x" firstAttribute="leading" secondItem="Agq-6K-x1a" secondAttribute="leading" id="WJ9-mg-1ea"/>
+                <constraint firstItem="ed0-gS-weg" firstAttribute="centerY" secondItem="ent-Po-n8x" secondAttribute="centerY" id="cQD-wd-qvE"/>
+                <constraint firstItem="2ve-IY-gbh" firstAttribute="top" secondItem="Agq-6K-x1a" secondAttribute="top" id="fgy-Iz-ifa"/>
+                <constraint firstAttribute="trailing" secondItem="2ve-IY-gbh" secondAttribute="trailing" id="hel-dy-cmm"/>
+                <constraint firstItem="ed0-gS-weg" firstAttribute="centerX" secondItem="ent-Po-n8x" secondAttribute="centerX" id="k3J-gZ-byD"/>
+                <constraint firstItem="ent-Po-n8x" firstAttribute="top" secondItem="Agq-6K-x1a" secondAttribute="top" id="qtN-th-xtN"/>
+                <constraint firstItem="2ve-IY-gbh" firstAttribute="leading" secondItem="Agq-6K-x1a" secondAttribute="leading" id="yzq-4c-LMh"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <connections>
+                <outlet property="rotateImage" destination="ent-Po-n8x" id="hyK-6u-0ko"/>
+            </connections>
+            <point key="canvasLocation" x="398.55072463768118" y="36.830357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="19.circle" catalog="system" width="128" height="121"/>
+        <image name="UI00" width="2000" height="2000"/>
+        <image name="UI01" width="2000" height="2000"/>
+        <image name="UI05" width="1000" height="1000"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

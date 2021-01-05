@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		441C4DD625997A6A00C1DCF7 /* Hall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C4DC825997A6A00C1DCF7 /* Hall.storyboard */; };
+		441C4E1C25997BB400C1DCF7 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C4E0325997BB400C1DCF7 /* History.storyboard */; };
+		441C4E1D25997BB400C1DCF7 /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C4E0925997BB400C1DCF7 /* Discovery.storyboard */; };
+		441C4E1F25997BB400C1DCF7 /* MyLottery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C4E1525997BB400C1DCF7 /* MyLottery.storyboard */; };
+		441C4E2025997BB400C1DCF7 /* Arena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441C4E1B25997BB400C1DCF7 /* Arena.storyboard */; };
+		441C4E27259982DB00C1DCF7 /* JMJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C4E26259982DB00C1DCF7 /* JMJTabBarController.m */; };
+		441C4E2D2599BB5600C1DCF7 /* JMJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C4E2C2599BB5600C1DCF7 /* JMJTabBar.m */; };
+		441C4E312599C16700C1DCF7 /* JMJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C4E302599C16700C1DCF7 /* JMJNavigationController.m */; };
+		441C4E3A2599C88D00C1DCF7 /* JMJHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C4E392599C88D00C1DCF7 /* JMJHallController.m */; };
+		443C80BA259A0EE6009CA3E4 /* JMJArenaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80B9259A0EE6009CA3E4 /* JMJArenaController.m */; };
+		443C80BE259AD6DA009CA3E4 /* JMJGroupBuyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80BD259AD6DA009CA3E4 /* JMJGroupBuyButton.m */; };
+		443C80C2259AD8C7009CA3E4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80C1259AD8C7009CA3E4 /* UIView+Frame.m */; };
+		443C80C6259ADB81009CA3E4 /* JMJGroupBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80C5259ADB81009CA3E4 /* JMJGroupBuyController.m */; };
+		443C80CA259AE818009CA3E4 /* JMJLuckyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80C9259AE818009CA3E4 /* JMJLuckyController.m */; };
+		443C80CE259AFA79009CA3E4 /* JMJMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80CD259AFA79009CA3E4 /* JMJMyLotteryController.m */; };
+		443C80D2259AFD23009CA3E4 /* JMJSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80D1259AFD23009CA3E4 /* JMJSettingController.m */; };
+		443C80D9259B0037009CA3E4 /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443C80D8259B0037009CA3E4 /* Setting.plist */; };
+		443C80DD259B1C74009CA3E4 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80DC259B1C74009CA3E4 /* UIImage+Scale.m */; };
+		443C80E2259B206D009CA3E4 /* JMJRedeemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80E1259B206D009CA3E4 /* JMJRedeemController.m */; };
+		443C80E6259B25BB009CA3E4 /* SettingPush.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443C80E5259B25BB009CA3E4 /* SettingPush.plist */; };
+		443C80EA259B2892009CA3E4 /* SettingPush01.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443C80E9259B2892009CA3E4 /* SettingPush01.plist */; };
+		443C80EE259B47DD009CA3E4 /* JMJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80ED259B47DD009CA3E4 /* JMJSettingCell.m */; };
+		443C80F2259B4FE9009CA3E4 /* JMJLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C80F1259B4FE9009CA3E4 /* JMJLiveController.m */; };
+		443C8109259B5A14009CA3E4 /* RotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C8106259B5A14009CA3E4 /* RotateView.m */; };
+		443C810A259B5A14009CA3E4 /* RotateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443C8107259B5A14009CA3E4 /* RotateView.xib */; };
+		443C810E259B5A1F009CA3E4 /* RotateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C810D259B5A1F009CA3E4 /* RotateController.m */; };
+		443C8112259C0F23009CA3E4 /* SettingPush02.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443C8111259C0F23009CA3E4 /* SettingPush02.plist */; };
+		443C8117259C1A96009CA3E4 /* SettingPush03.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443C8115259C1A96009CA3E4 /* SettingPush03.plist */; };
+		443C8118259C1A96009CA3E4 /* SettingPush04.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443C8116259C1A96009CA3E4 /* SettingPush04.plist */; };
+		443C811C259C217D009CA3E4 /* JMJAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C811B259C217D009CA3E4 /* JMJAboutController.m */; };
+		443C811F259C21C5009CA3E4 /* SettingAbout.plist in Resources */ = {isa = PBXBuildFile; fileRef = 443C811E259C21C5009CA3E4 /* SettingAbout.plist */; };
+		443C8122259C234C009CA3E4 /* JMJAboutHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443C8121259C234C009CA3E4 /* JMJAboutHeaderView.xib */; };
+		443C8126259C236D009CA3E4 /* JMJAboutHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C8125259C236D009CA3E4 /* JMJAboutHeaderView.m */; };
+		443C8130259C5818009CA3E4 /* JMJProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C812F259C5818009CA3E4 /* JMJProductController.m */; };
+		443C8134259C5B01009CA3E4 /* JMJProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C8133259C5B01009CA3E4 /* JMJProduct.m */; };
+		443C8138259C5D4B009CA3E4 /* JMJProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C8137259C5D4B009CA3E4 /* JMJProductCell.m */; };
+		443C813B259C5D66009CA3E4 /* JMJProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443C813A259C5D66009CA3E4 /* JMJProductCell.xib */; };
+		443C813E259C625B009CA3E4 /* more_products.json in Resources */ = {isa = PBXBuildFile; fileRef = 443C813D259C625B009CA3E4 /* more_products.json */; };
+		4478757925996A310036B3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4478757825996A310036B3D2 /* Assets.xcassets */; };
+		4478757C25996A310036B3D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4478757A25996A310036B3D2 /* LaunchScreen.storyboard */; };
+		4478757F25996A310036B3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478757E25996A310036B3D2 /* main.m */; };
+		447875C52599722E0036B3D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478759E2599722E0036B3D2 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		441C4DC825997A6A00C1DCF7 /* Hall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hall.storyboard; sourceTree = "<group>"; };
+		441C4E0325997BB400C1DCF7 /* History.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		441C4E0925997BB400C1DCF7 /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
+		441C4E1525997BB400C1DCF7 /* MyLottery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyLottery.storyboard; sourceTree = "<group>"; };
+		441C4E1B25997BB400C1DCF7 /* Arena.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Arena.storyboard; sourceTree = "<group>"; };
+		441C4E25259982DB00C1DCF7 /* JMJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJTabBarController.h; sourceTree = "<group>"; };
+		441C4E26259982DB00C1DCF7 /* JMJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJTabBarController.m; sourceTree = "<group>"; };
+		441C4E2B2599BB5600C1DCF7 /* JMJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJTabBar.h; sourceTree = "<group>"; };
+		441C4E2C2599BB5600C1DCF7 /* JMJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJTabBar.m; sourceTree = "<group>"; };
+		441C4E2F2599C16700C1DCF7 /* JMJNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJNavigationController.h; sourceTree = "<group>"; };
+		441C4E302599C16700C1DCF7 /* JMJNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJNavigationController.m; sourceTree = "<group>"; };
+		441C4E382599C88D00C1DCF7 /* JMJHallController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJHallController.h; sourceTree = "<group>"; };
+		441C4E392599C88D00C1DCF7 /* JMJHallController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJHallController.m; sourceTree = "<group>"; };
+		443C80B8259A0EE6009CA3E4 /* JMJArenaController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJArenaController.h; sourceTree = "<group>"; };
+		443C80B9259A0EE6009CA3E4 /* JMJArenaController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJArenaController.m; sourceTree = "<group>"; };
+		443C80BC259AD6DA009CA3E4 /* JMJGroupBuyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJGroupBuyButton.h; sourceTree = "<group>"; };
+		443C80BD259AD6DA009CA3E4 /* JMJGroupBuyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJGroupBuyButton.m; sourceTree = "<group>"; };
+		443C80C0259AD8C7009CA3E4 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		443C80C1259AD8C7009CA3E4 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		443C80C4259ADB81009CA3E4 /* JMJGroupBuyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJGroupBuyController.h; sourceTree = "<group>"; };
+		443C80C5259ADB81009CA3E4 /* JMJGroupBuyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJGroupBuyController.m; sourceTree = "<group>"; };
+		443C80C8259AE818009CA3E4 /* JMJLuckyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJLuckyController.h; sourceTree = "<group>"; };
+		443C80C9259AE818009CA3E4 /* JMJLuckyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJLuckyController.m; sourceTree = "<group>"; };
+		443C80CC259AFA79009CA3E4 /* JMJMyLotteryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJMyLotteryController.h; sourceTree = "<group>"; };
+		443C80CD259AFA79009CA3E4 /* JMJMyLotteryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJMyLotteryController.m; sourceTree = "<group>"; };
+		443C80D0259AFD23009CA3E4 /* JMJSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJSettingController.h; sourceTree = "<group>"; };
+		443C80D1259AFD23009CA3E4 /* JMJSettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJSettingController.m; sourceTree = "<group>"; };
+		443C80D8259B0037009CA3E4 /* Setting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Setting.plist; sourceTree = "<group>"; };
+		443C80DB259B1C74009CA3E4 /* UIImage+Scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		443C80DC259B1C74009CA3E4 /* UIImage+Scale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		443C80E0259B206D009CA3E4 /* JMJRedeemController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJRedeemController.h; sourceTree = "<group>"; };
+		443C80E1259B206D009CA3E4 /* JMJRedeemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJRedeemController.m; sourceTree = "<group>"; };
+		443C80E5259B25BB009CA3E4 /* SettingPush.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SettingPush.plist; sourceTree = "<group>"; };
+		443C80E9259B2892009CA3E4 /* SettingPush01.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SettingPush01.plist; sourceTree = "<group>"; };
+		443C80EC259B47DD009CA3E4 /* JMJSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJSettingCell.h; sourceTree = "<group>"; };
+		443C80ED259B47DD009CA3E4 /* JMJSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJSettingCell.m; sourceTree = "<group>"; };
+		443C80F0259B4FE9009CA3E4 /* JMJLiveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJLiveController.h; sourceTree = "<group>"; };
+		443C80F1259B4FE9009CA3E4 /* JMJLiveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJLiveController.m; sourceTree = "<group>"; };
+		443C8106259B5A14009CA3E4 /* RotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateView.m; sourceTree = "<group>"; };
+		443C8107259B5A14009CA3E4 /* RotateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotateView.xib; sourceTree = "<group>"; };
+		443C8108259B5A14009CA3E4 /* RotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateView.h; sourceTree = "<group>"; };
+		443C810C259B5A1F009CA3E4 /* RotateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateController.h; sourceTree = "<group>"; };
+		443C810D259B5A1F009CA3E4 /* RotateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateController.m; sourceTree = "<group>"; };
+		443C8111259C0F23009CA3E4 /* SettingPush02.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingPush02.plist; sourceTree = "<group>"; };
+		443C8115259C1A96009CA3E4 /* SettingPush03.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingPush03.plist; sourceTree = "<group>"; };
+		443C8116259C1A96009CA3E4 /* SettingPush04.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingPush04.plist; sourceTree = "<group>"; };
+		443C811A259C217D009CA3E4 /* JMJAboutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJAboutController.h; sourceTree = "<group>"; };
+		443C811B259C217D009CA3E4 /* JMJAboutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJAboutController.m; sourceTree = "<group>"; };
+		443C811E259C21C5009CA3E4 /* SettingAbout.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingAbout.plist; sourceTree = "<group>"; };
+		443C8121259C234C009CA3E4 /* JMJAboutHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JMJAboutHeaderView.xib; sourceTree = "<group>"; };
+		443C8124259C236D009CA3E4 /* JMJAboutHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJAboutHeaderView.h; sourceTree = "<group>"; };
+		443C8125259C236D009CA3E4 /* JMJAboutHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJAboutHeaderView.m; sourceTree = "<group>"; };
+		443C812E259C5818009CA3E4 /* JMJProductController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJProductController.h; sourceTree = "<group>"; };
+		443C812F259C5818009CA3E4 /* JMJProductController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJProductController.m; sourceTree = "<group>"; };
+		443C8132259C5B01009CA3E4 /* JMJProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJProduct.h; sourceTree = "<group>"; };
+		443C8133259C5B01009CA3E4 /* JMJProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJProduct.m; sourceTree = "<group>"; };
+		443C8136259C5D4B009CA3E4 /* JMJProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMJProductCell.h; sourceTree = "<group>"; };
+		443C8137259C5D4B009CA3E4 /* JMJProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMJProductCell.m; sourceTree = "<group>"; };
+		443C813A259C5D66009CA3E4 /* JMJProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JMJProductCell.xib; sourceTree = "<group>"; };
+		443C813D259C625B009CA3E4 /* more_products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = more_products.json; sourceTree = "<group>"; };
+		4478756925996A310036B3D2 /* 网易彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4478757825996A310036B3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4478757B25996A310036B3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4478757D25996A310036B3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4478757E25996A310036B3D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4478759C2599722E0036B3D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4478759E2599722E0036B3D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		447875C7259972C50036B3D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4478756625996A310036B3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441C4DC325997A6A00C1DCF7 /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				441C4DC425997A6A00C1DCF7 /* Other */,
+				441C4DC525997A6A00C1DCF7 /* Controller */,
+				441C4DC625997A6A00C1DCF7 /* Model */,
+				441C4DC725997A6A00C1DCF7 /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		441C4DC425997A6A00C1DCF7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		441C4DC525997A6A00C1DCF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E382599C88D00C1DCF7 /* JMJHallController.h */,
+				441C4E392599C88D00C1DCF7 /* JMJHallController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		441C4DC625997A6A00C1DCF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		441C4DC725997A6A00C1DCF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441C4DC825997A6A00C1DCF7 /* Hall.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		441C4DFE25997BB400C1DCF7 /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				441C4DFF25997BB400C1DCF7 /* Other */,
+				441C4E0025997BB400C1DCF7 /* Controller */,
+				441C4E0125997BB400C1DCF7 /* Model */,
+				441C4E0225997BB400C1DCF7 /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		441C4DFF25997BB400C1DCF7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		441C4E0025997BB400C1DCF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		441C4E0125997BB400C1DCF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		441C4E0225997BB400C1DCF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E0325997BB400C1DCF7 /* History.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		441C4E0425997BB400C1DCF7 /* Discovery(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E0525997BB400C1DCF7 /* Other */,
+				441C4E0625997BB400C1DCF7 /* Controller */,
+				441C4E0725997BB400C1DCF7 /* Model */,
+				441C4E0825997BB400C1DCF7 /* View */,
+			);
+			path = "Discovery(发现)";
+			sourceTree = "<group>";
+		};
+		441C4E0525997BB400C1DCF7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				443C8105259B59E3009CA3E4 /* RotateController */,
+				443C8103259B59CC009CA3E4 /* RotateView */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		441C4E0625997BB400C1DCF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				443C80C4259ADB81009CA3E4 /* JMJGroupBuyController.h */,
+				443C80C5259ADB81009CA3E4 /* JMJGroupBuyController.m */,
+				443C80C8259AE818009CA3E4 /* JMJLuckyController.h */,
+				443C80C9259AE818009CA3E4 /* JMJLuckyController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		441C4E0725997BB400C1DCF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		441C4E0825997BB400C1DCF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E0925997BB400C1DCF7 /* Discovery.storyboard */,
+				443C80BC259AD6DA009CA3E4 /* JMJGroupBuyButton.h */,
+				443C80BD259AD6DA009CA3E4 /* JMJGroupBuyButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		441C4E0A25997BB400C1DCF7 /* Main(主框架) */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E0B25997BB400C1DCF7 /* Other */,
+				441C4E0C25997BB400C1DCF7 /* Controller */,
+				441C4E0D25997BB400C1DCF7 /* Model */,
+				441C4E0E25997BB400C1DCF7 /* View */,
+			);
+			path = "Main(主框架)";
+			sourceTree = "<group>";
+		};
+		441C4E0B25997BB400C1DCF7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		441C4E0C25997BB400C1DCF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E25259982DB00C1DCF7 /* JMJTabBarController.h */,
+				441C4E26259982DB00C1DCF7 /* JMJTabBarController.m */,
+				441C4E2F2599C16700C1DCF7 /* JMJNavigationController.h */,
+				441C4E302599C16700C1DCF7 /* JMJNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		441C4E0D25997BB400C1DCF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		441C4E0E25997BB400C1DCF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E2B2599BB5600C1DCF7 /* JMJTabBar.h */,
+				441C4E2C2599BB5600C1DCF7 /* JMJTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		441C4E1025997BB400C1DCF7 /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E1125997BB400C1DCF7 /* Other */,
+				441C4E1325997BB400C1DCF7 /* Model */,
+				441C4E1425997BB400C1DCF7 /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		441C4E1125997BB400C1DCF7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				443C80D8259B0037009CA3E4 /* Setting.plist */,
+				443C811E259C21C5009CA3E4 /* SettingAbout.plist */,
+				443C80E5259B25BB009CA3E4 /* SettingPush.plist */,
+				443C8115259C1A96009CA3E4 /* SettingPush03.plist */,
+				443C8116259C1A96009CA3E4 /* SettingPush04.plist */,
+				443C8111259C0F23009CA3E4 /* SettingPush02.plist */,
+				443C80E9259B2892009CA3E4 /* SettingPush01.plist */,
+				441C4E1225997BB400C1DCF7 /* Controller */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		441C4E1225997BB400C1DCF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				443C80DF259B205A009CA3E4 /* Setting */,
+				443C80CC259AFA79009CA3E4 /* JMJMyLotteryController.h */,
+				443C80CD259AFA79009CA3E4 /* JMJMyLotteryController.m */,
+				443C80D0259AFD23009CA3E4 /* JMJSettingController.h */,
+				443C80D1259AFD23009CA3E4 /* JMJSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		441C4E1325997BB400C1DCF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				443C8132259C5B01009CA3E4 /* JMJProduct.h */,
+				443C8133259C5B01009CA3E4 /* JMJProduct.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		441C4E1425997BB400C1DCF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E1525997BB400C1DCF7 /* MyLottery.storyboard */,
+				443C80EC259B47DD009CA3E4 /* JMJSettingCell.h */,
+				443C80ED259B47DD009CA3E4 /* JMJSettingCell.m */,
+				443C8121259C234C009CA3E4 /* JMJAboutHeaderView.xib */,
+				443C8124259C236D009CA3E4 /* JMJAboutHeaderView.h */,
+				443C8125259C236D009CA3E4 /* JMJAboutHeaderView.m */,
+				443C8136259C5D4B009CA3E4 /* JMJProductCell.h */,
+				443C8137259C5D4B009CA3E4 /* JMJProductCell.m */,
+				443C813A259C5D66009CA3E4 /* JMJProductCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		441C4E1625997BB400C1DCF7 /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E1725997BB400C1DCF7 /* Other */,
+				441C4E1825997BB400C1DCF7 /* Controller */,
+				441C4E1925997BB400C1DCF7 /* Model */,
+				441C4E1A25997BB400C1DCF7 /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		441C4E1725997BB400C1DCF7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		441C4E1825997BB400C1DCF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				443C80B8259A0EE6009CA3E4 /* JMJArenaController.h */,
+				443C80B9259A0EE6009CA3E4 /* JMJArenaController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		441C4E1925997BB400C1DCF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		441C4E1A25997BB400C1DCF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E1B25997BB400C1DCF7 /* Arena.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		443C80DF259B205A009CA3E4 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				443C80E0259B206D009CA3E4 /* JMJRedeemController.h */,
+				443C80E1259B206D009CA3E4 /* JMJRedeemController.m */,
+				443C80F0259B4FE9009CA3E4 /* JMJLiveController.h */,
+				443C80F1259B4FE9009CA3E4 /* JMJLiveController.m */,
+				443C811A259C217D009CA3E4 /* JMJAboutController.h */,
+				443C811B259C217D009CA3E4 /* JMJAboutController.m */,
+				443C812E259C5818009CA3E4 /* JMJProductController.h */,
+				443C812F259C5818009CA3E4 /* JMJProductController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		443C8103259B59CC009CA3E4 /* RotateView */ = {
+			isa = PBXGroup;
+			children = (
+				443C8108259B5A14009CA3E4 /* RotateView.h */,
+				443C8106259B5A14009CA3E4 /* RotateView.m */,
+				443C8107259B5A14009CA3E4 /* RotateView.xib */,
+			);
+			path = RotateView;
+			sourceTree = "<group>";
+		};
+		443C8105259B59E3009CA3E4 /* RotateController */ = {
+			isa = PBXGroup;
+			children = (
+				443C810C259B5A1F009CA3E4 /* RotateController.h */,
+				443C810D259B5A1F009CA3E4 /* RotateController.m */,
+			);
+			path = RotateController;
+			sourceTree = "<group>";
+		};
+		4478756025996A310036B3D2 = {
+			isa = PBXGroup;
+			children = (
+				4478756B25996A310036B3D2 /* 网易彩票 */,
+				4478756A25996A310036B3D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4478756A25996A310036B3D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4478756925996A310036B3D2 /* 网易彩票.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4478756B25996A310036B3D2 /* 网易彩票 */ = {
+			isa = PBXGroup;
+			children = (
+				447875A02599722E0036B3D2 /* Classes */,
+				4478759A2599722E0036B3D2 /* Common */,
+				447875992599722E0036B3D2 /* Libs */,
+				4478759B2599722E0036B3D2 /* Other */,
+				4478757825996A310036B3D2 /* Assets.xcassets */,
+				4478757A25996A310036B3D2 /* LaunchScreen.storyboard */,
+				443C813D259C625B009CA3E4 /* more_products.json */,
+				4478757D25996A310036B3D2 /* Info.plist */,
+				4478757E25996A310036B3D2 /* main.m */,
+			);
+			path = "网易彩票";
+			sourceTree = "<group>";
+		};
+		447875992599722E0036B3D2 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		4478759A2599722E0036B3D2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				443C80C0259AD8C7009CA3E4 /* UIView+Frame.h */,
+				443C80C1259AD8C7009CA3E4 /* UIView+Frame.m */,
+				443C80DB259B1C74009CA3E4 /* UIImage+Scale.h */,
+				443C80DC259B1C74009CA3E4 /* UIImage+Scale.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4478759B2599722E0036B3D2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4478759C2599722E0036B3D2 /* AppDelegate.h */,
+				4478759E2599722E0036B3D2 /* AppDelegate.m */,
+				447875C7259972C50036B3D2 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		447875A02599722E0036B3D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				441C4E0A25997BB400C1DCF7 /* Main(主框架) */,
+				441C4DC325997A6A00C1DCF7 /* Hall(购彩大厅) */,
+				441C4E1625997BB400C1DCF7 /* Arena(竞技场) */,
+				441C4E0425997BB400C1DCF7 /* Discovery(发现) */,
+				441C4DFE25997BB400C1DCF7 /* History(开奖信息) */,
+				441C4E1025997BB400C1DCF7 /* MyLottery(我的彩票) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4478756825996A310036B3D2 /* 网易彩票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4478758225996A310036B3D2 /* Build configuration list for PBXNativeTarget "网易彩票" */;
+			buildPhases = (
+				4478756525996A310036B3D2 /* Sources */,
+				4478756625996A310036B3D2 /* Frameworks */,
+				4478756725996A310036B3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易彩票";
+			productName = "网易彩票";
+			productReference = 4478756925996A310036B3D2 /* 网易彩票.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4478756125996A310036B3D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JMJ;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					4478756825996A310036B3D2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 4478756425996A310036B3D2 /* Build configuration list for PBXProject "网易彩票" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4478756025996A310036B3D2;
+			productRefGroup = 4478756A25996A310036B3D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4478756825996A310036B3D2 /* 网易彩票 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4478756725996A310036B3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443C80E6259B25BB009CA3E4 /* SettingPush.plist in Resources */,
+				443C8118259C1A96009CA3E4 /* SettingPush04.plist in Resources */,
+				441C4E1D25997BB400C1DCF7 /* Discovery.storyboard in Resources */,
+				443C813E259C625B009CA3E4 /* more_products.json in Resources */,
+				4478757C25996A310036B3D2 /* LaunchScreen.storyboard in Resources */,
+				4478757925996A310036B3D2 /* Assets.xcassets in Resources */,
+				443C810A259B5A14009CA3E4 /* RotateView.xib in Resources */,
+				443C811F259C21C5009CA3E4 /* SettingAbout.plist in Resources */,
+				443C8122259C234C009CA3E4 /* JMJAboutHeaderView.xib in Resources */,
+				441C4E1F25997BB400C1DCF7 /* MyLottery.storyboard in Resources */,
+				441C4DD625997A6A00C1DCF7 /* Hall.storyboard in Resources */,
+				443C8117259C1A96009CA3E4 /* SettingPush03.plist in Resources */,
+				443C80EA259B2892009CA3E4 /* SettingPush01.plist in Resources */,
+				443C80D9259B0037009CA3E4 /* Setting.plist in Resources */,
+				443C8112259C0F23009CA3E4 /* SettingPush02.plist in Resources */,
+				441C4E2025997BB400C1DCF7 /* Arena.storyboard in Resources */,
+				443C813B259C5D66009CA3E4 /* JMJProductCell.xib in Resources */,
+				441C4E1C25997BB400C1DCF7 /* History.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4478756525996A310036B3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443C80DD259B1C74009CA3E4 /* UIImage+Scale.m in Sources */,
+				443C8109259B5A14009CA3E4 /* RotateView.m in Sources */,
+				443C80BE259AD6DA009CA3E4 /* JMJGroupBuyButton.m in Sources */,
+				4478757F25996A310036B3D2 /* main.m in Sources */,
+				443C80E2259B206D009CA3E4 /* JMJRedeemController.m in Sources */,
+				443C80C6259ADB81009CA3E4 /* JMJGroupBuyController.m in Sources */,
+				441C4E312599C16700C1DCF7 /* JMJNavigationController.m in Sources */,
+				443C8126259C236D009CA3E4 /* JMJAboutHeaderView.m in Sources */,
+				443C80CA259AE818009CA3E4 /* JMJLuckyController.m in Sources */,
+				443C810E259B5A1F009CA3E4 /* RotateController.m in Sources */,
+				443C80C2259AD8C7009CA3E4 /* UIView+Frame.m in Sources */,
+				443C8130259C5818009CA3E4 /* JMJProductController.m in Sources */,
+				443C80F2259B4FE9009CA3E4 /* JMJLiveController.m in Sources */,
+				443C8134259C5B01009CA3E4 /* JMJProduct.m in Sources */,
+				447875C52599722E0036B3D2 /* AppDelegate.m in Sources */,
+				443C80D2259AFD23009CA3E4 /* JMJSettingController.m in Sources */,
+				443C80EE259B47DD009CA3E4 /* JMJSettingCell.m in Sources */,
+				443C80BA259A0EE6009CA3E4 /* JMJArenaController.m in Sources */,
+				441C4E27259982DB00C1DCF7 /* JMJTabBarController.m in Sources */,
+				443C80CE259AFA79009CA3E4 /* JMJMyLotteryController.m in Sources */,
+				441C4E3A2599C88D00C1DCF7 /* JMJHallController.m in Sources */,
+				443C8138259C5D4B009CA3E4 /* JMJProductCell.m in Sources */,
+				441C4E2D2599BB5600C1DCF7 /* JMJTabBar.m in Sources */,
+				443C811C259C217D009CA3E4 /* JMJAboutController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4478757A25996A310036B3D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4478757B25996A310036B3D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4478758025996A310036B3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4478758125996A310036B3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4478758325996A310036B3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A899P85UB8;
+				GCC_PREFIX_HEADER = "网易彩票/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOStest.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4478758425996A310036B3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A899P85UB8;
+				GCC_PREFIX_HEADER = "网易彩票/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IOStest.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4478756425996A310036B3D2 /* Build configuration list for PBXProject "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4478758025996A310036B3D2 /* Debug */,
+				4478758125996A310036B3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4478758225996A310036B3D2 /* Build configuration list for PBXNativeTarget "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4478758325996A310036B3D2 /* Debug */,
+				4478758425996A310036B3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4478756125996A310036B3D2 /* Project object */;
+}
